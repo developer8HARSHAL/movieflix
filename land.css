@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: 150px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0 to 1) to control transparency */
+}
+  
+.navbar{
+    position: absolute;
+    right: 500px;
+    margin-top: -88px;
+    background-color: #333;
+    height: 50px;
+}
+.nav{
+    list-style-type: none; 
+    margin-left: -40px;       
+    padding-left: 60px;  
+}
+.nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding-left: 50px;
+}
+.nav a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:monospace;
+    text-decoration: none;
+    word-spacing: 5px;
+    margin-left: 120px;
+}
+.nav li a:hover {
+    color: rgb(255, 16, 16);
+
+
+  }
+.nav_ri {
+    position: relative;
+    margin-top: -43px;
+    right: -116ex;
+}
+
+.nav_ri a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: larger;
+}
+.nav_ri a:hover{
+    color: red;
+}
+.container{
+    position: relative;
+    height: 600px;
+    width: 90%;
+    z-index: 5;
+    margin-top: -39px;
+    background-color: black;
+    border-radius: 9px;
+    margin-left: 5%;
+}
+.container img{
+    height: 600px;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 44px;
+}
+.view{
+    margin-top: -250px;
+    margin-left:850px;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(240, 248, 255, 0.69);
+    border-radius: 30px;
+    border: none;
+}
+.view:hover{
+    color: rgb(255, 255, 255);
+}
+button:hover {
+    background-color: rgba(255, 0, 0, 0.178); 
+}
+
+button:active {
+    transform: translateY(-2px); 
+}
+
+
+button:after {
+    content: " EMAIL ID";
+    color: rgb(144, 0, 0);
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.con1 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 350px;
+    margin-left: 71px;
+}
+.con1 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con1 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con1 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+  }
+.con1 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+
+.con2 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 350px;
+    margin-left: 431px;
+}
+.con2 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con2 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con2 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con2 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+.con3 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 350px;
+    right: 420px ;
+
+}
+.con3 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con3 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con3 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con3 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+.con4 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 350px;
+    right: 50px;
+
+}
+.con4 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con4 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con4 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con4 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+.con11 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 770px;
+    margin-left: 71px;
+}
+.con11 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con11 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con11 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con11 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+.con22 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 770px;
+    margin-left: 431px;
+}
+.con22 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con22 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con22 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con22 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+.con33 {
+    position: absolute;
+    height: 349px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 770px;
+    right: 420px ;
+
+}
+.con33 img{
+    position: relative;
+    height: 250px;
+    width: 220px;
+    margin-top: 0;
+    margin-left: 0;
+   
+}
+.con33 h1{
+    margin-top: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.con33 h2{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.con33 h3{
+    margin-top: 12px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.593);
+}
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+h5{
+    position: absolute;
+    margin-top: 850px;
+    right: 250px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.cont_{
+
+    background-color: rgba(255, 255, 255, 0.582);
+        margin-top: 150ex;
+        height: 20px;
+     
+    }
+.cont_1{
+
+    margin-top: 150ex;
+    height: 50px;
+ 
+}
+.cont_1 ul{
+    height: 100px;
+    width: 100%;
+    margin-top: -892px;
+    margin-left: 600px;   
+    padding-bottom: 150px; 
+    
+
+}
+.cont_1 a{
+    text-decoration: underline;
+    color: rgba(234, 234, 234, 0.642);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 2em;
+}
+p{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.547);
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: larger;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+
+}
+
+.cont_2 ul{
+    height: 100px;
+    width: 100%;
+    margin-top: -1138px;
+    margin-left: 900px;
+    padding-bottom: 150px;
+    
+
+}
+.cont_2 a{
+    text-decoration: underline;
+    color: rgba(234, 234, 234, 0.642);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 2em;
+}
